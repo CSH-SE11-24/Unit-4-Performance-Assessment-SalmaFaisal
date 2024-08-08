@@ -1,0 +1,181 @@
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  //this is a nav bar connected on all pages so your able to go bavk and forth within the page 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Texas Roadhouse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">locations</a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <h1> Texas Roadhouse</h1>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="food1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Texas Roadhouse Main Course Meals.</h5>
+          <p> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="food.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Texas Roadhouse Appetizers.</h5>
+          <p>  </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="dessert.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Texas Roadhouse Desserts.</h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <h3> Main course Meals</h3> 
+//this a list of main course meals available 
+ <h5>Burgers</h5>
+  <div class col-4="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+      <img src="all.png" class="card-img-top" alt="...">
+      <li class="list-group-item">ALL-AMERICAN CHEESEBURGER*
+         <p ="card-text">Our classic with American cheese, lettuce, tomato and onion served on a Texas-sized bun with steak fries and a pickle spear</p>
+        </li>
+  </div>
+
+  // this is usage of bootstrap grid 
+
+     <div class col- sm-12 col-md-6 col-lg-3="card" style="width: 18rem;">
+       <ul class="list-group list-group-flush">
+<img src="bacon.png" class="card-img-top" alt="...">
+      <li class="list-group-item">BACON CHEESEBURGER*
+      <p ="card-text">Crispy strips of bacon with American cheese, lettuce, tomato and onion served on a Texas-sized bun with steak fries and a pickle spear</p>
+          </li>
+         </div>
+
+  <div class col- sm-12 col-md-6 col-lg-3="card" style="width: 18rem;">
+     <ul class="list-group list-group-flush">
+      <img src="bbq.png" class="card-img-top" alt="...">
+            <li class="list-group-item">BBQ CHICKEN SANDWICH
+            <p class="card-text">Marinated and grilled chicken breast basted with BBQ sauce with lettuce, tomato and onion served on a Texas-sized bun with steak fries and a pickle spear</p>
+              
+            </li>
+       </div>
+     </ul>
+
+      
+    
+      <h5>Steak & Ribs</h5>
+      <img src="steak.png" class="card-img-top" alt="...">
+      <li class="list-group-item">STEAK KABOB*</li>
+      <p class="card-text"> Marinated steak with onion, mushroom, tomato, red pepper, green pepper served over seasoned rice with choice of one side</p>
+
+      <img src="NY.png" class="card-img-top" alt="...">
+      <li class="list-group-item">NEW YORK STRIP*</li>
+      <p class="card-text">Similar flavor to the sirloin with extra tenderness. Served with choice of two sides.</p>
+
+      <img src="slab.png" class="card-img-top" alt="...">
+      <li class="list-group-item">  1/2 SLAB RIBS*</li>
+      <p class="card-text">Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides.</p>
+
+
+      <img src="Full.png" class="card-img-top" alt="...">
+      <li class="list-group-item">FULL SLAB RIBS*</li>
+      <p class="card-text">Slow cooked with a unique blend of seasonings and our signature BBQ sauce. Served with choice of two sides.</p>
+    
+      <h3> Appetizers</h3>
+      <img src="tater.png" class="card-img-top" alt="...">
+      <li class="list-group-item">TATER SKINS*</li>
+      <p class="card-text">Plate of 8 baked potato skins topped with melted cheddar cheese and bacon bits, served with sour cream for dipping.</p>
+
+      <img src="shrimp.png" class="card-img-top" alt="...">
+      <li class="list-group-item">GRILLED SHRIMP APPETIZER*</li>
+      <p class="card-text"> Seasoned shrimp drizzled with garlic lemon pepper butter and served on toasted fresh-baked bread</p>
+
+      <img src="bone.png" class="card-img-top" alt="...">
+      <li class="list-group-item">BONELESS BUFFALO WINGS*</li>
+      <p class="card-text">Breaded white meat chicken tossed in Mild or Hot sauce and served with Bleu Cheese dressing</p>
+
+<h3> Desserts</h3>
+      <img src="apple.png" class="card-img-top" alt="...">
+      <li class="list-group-item">GRANNY'S APPLE CLASSIC*</li>
+      <p class="card-text">Homestyle slice of apple pie topped with vanilla ice cream and honey cinnamon caramel sauce</p>
+
+      <img src="strawberry.png" class="card-img-top" alt="...">
+      <li class="list-group-item">STRAWBERRY CHEESECAKE*</li>
+      <p class="card-text">Slice of classic New York-style cheesecake topped with strawberry sauce and whipped cream</p>
+
+      <img src="brownie.png" class="card-img-top" alt="...">
+      <li class="list-group-item">BIG OL' BROWNIE*</li>
+      <p class="card-text">Chocolate brownie topped with vanilla ice cream and hot chocolate sauce</p>
+
+
+      <h3> Drinks</h3>
+      <img src="fruity.png" class="card-img-top" alt="...">
+      <li class="list-group-item">FRUITY MARGARITA*</li>
+      <p class="card-text">Choose from Strawberry or Raspberry</p>
+
+      <img src="sangria.png" class="card-img-top" alt="...">
+      <li class="list-group-item">SANGRIA MARGARITA*</li>
+      <p class="card-text">Our House Margarita swirled with our Sangria Red</p>
+
+      <img src="mix.png" class="card-img-top" alt="...">
+      <li class="list-group-item">MIX & MATCH TEA OR LEMONADE*</li>
+
+      <img src="fountain.png" class="card-img-top" alt="...">
+      <li class="list-group-item">20 OZ FOUNTAIN DRINKS*</li>
+
+      <img src="meiomi.png" class="card-img-top" alt="...">
+      <li class="list-group-item">MEIOMI® PINOT NOIR*</li>
+      <p class="card-text">Smooth cherry and strawberry flavors. Great with steaks or chicken.</p>
+      <img src="nobilo.png" class="card-img-top" alt="...">
+      <li class="list-group-item">NOBILO® SAUVIGNON BLANC*</li>
+      <p class="card-text">Fresh, crisp, and zesty fruit flavors. Best with salads, seafood, or chicken.</p>
+
+
+      
+    </ul>
+  </div>
+
+  <!-- Link Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
